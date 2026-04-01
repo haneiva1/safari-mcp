@@ -1,0 +1,15 @@
+{
+  "name": "safari-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Safari browser automation on macOS — control Safari from Claude, Cursor, and any MCP client",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": { "safari-mcp": "dist/index.js" },
+  "scripts": { "build": "tsc", "dev": "tsx src/index.ts" },
+  "keywords": ["mcp","safari","browser-automation","macos","jxa","ai","claude","cursor","model-context-protocol","typescript"],
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "os": ["darwin"],
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.0.0", "reflect-metadata": "^0.2.2" },
+  "devDependencies": { "@types/node": "^20.11.0", "tsx": "^4.7.0", "typescript": "^5.3.3" }
+}
